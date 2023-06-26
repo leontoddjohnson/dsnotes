@@ -1,6 +1,6 @@
 # Overview
 
-Reference for an efficient Data Science framework and workflow.
+Reference and notes for an efficient Data Science framework and workflow.
 
 *Note: The content here was built using a MacBook.*
 

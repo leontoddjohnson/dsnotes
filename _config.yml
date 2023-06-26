@@ -1,4 +1,5 @@
-# Run build from terminal (in this directory) with `jupyter-book build .`
+# BUILD:    `jupyter-book build .`
+# PUBLISH:  `ghp-import -n -p -f _build/html`
 
 title: data science notes
 author: leon t johnson
