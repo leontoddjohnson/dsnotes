@@ -1,0 +1,16 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: 1_overview_
+chapters:
+- file: 2_py_
+  sections:
+  - file: 2_py_jupyter
+  # - deep learning (tf, etc.), nlp (spacy, etc.)
+- file: 3_r_
+  # sections:
+  # - file: 3_r_tidyverse
+- file: 4_d3_
+- file: 5_bash_
+# - file: 6_math_ (theory, explanations, etc.)
