@@ -1,4 +1,4 @@
-# R for Statistical Analysis
+# R Setup
 
 Whereas Python tends to be the most useful framework for the typical data science project, R is easily the preferred tool for statistical analysis. Here we discuss how to set up a sufficient R environment.
 

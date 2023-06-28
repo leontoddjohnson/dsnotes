@@ -1,6 +1,10 @@
-# Python for Data Science
+# Python Setup
 
 Most of your work in data science will be done using Python, and we focus on that framework here. Before doing anything further, see below.
+
+## Initial Setup
+
+Before working on your first python-based project, install [Miniconda](https://docs.conda.io/en/latest/miniconda.html). (The full Anaconda distribution is bloated and can get quite cumbersome.) Then, run `conda update --all` (you might consider running this twice — package resolutions are weird).
 
 ## Initiate a Repository
 
@@ -15,7 +19,7 @@ Ideally, every data science project should have its own [environment](https://do
 
 - In most cases, you'll use a **Conda environment**.
 - If you run into versioning issues, use a **Pip environment**.
-  - E.g., in summer 2023, scattertext and spaCy are only compatible in a pip environment.
+  - E.g., in summer 2023, scattertext and spaCy are only compatible together in a pip environment.
 - If you plan to publish a web app online, use a **venv environment**.
 
 **Notes:**
@@ -39,8 +43,8 @@ Ideally, every data science project should have its own [environment](https://do
 [Pip](https://pip.pypa.io/en/stable/) is the [official](https://packaging.python.org/en/latest/guides/tool-recommendations/) package installer for Python. Where Anaconda tends to be most appealing to those new to Python, Pip tends to be an industry standard for professional projects.
 
 1. Consider starting out with a yml file. For example:
-   - **For NLP projects using scattertext and spaCy**, start with {download}`this <./lib/envs/env_nlp.yml>`
-   - **For web apps**, start with {download}`this <./lib/envs/env_app.yml>`
+   - **For NLP projects using scattertext and spaCy**, start with [this](https://github.com/leontoddjohnson/dstools/blob/main/envs/env_nlp.yml)
+   - **For web apps**, start with [this](https://github.com/leontoddjohnson/dstools/blob/main/envs/env_app.yml)
 2. Rename the file `environment.yml`.
 3. Open the yml file, update the `name` field, and add (or change) any packages you know you'll need under `pip:` (and **only** under `pip:`).
 4. Run `conda env create -f environment.yml` to create your environment.

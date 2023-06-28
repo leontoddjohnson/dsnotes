@@ -30,3 +30,11 @@ kill <process_id>
 ```
 
 To kill the process with `<process_id>` in the first column from the `ps` command, above.
+
+
+
+
+
+
+
+

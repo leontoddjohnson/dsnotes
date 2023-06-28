@@ -2,15 +2,44 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: 1_overview_
-chapters:
-- file: 2_py_
-  sections:
-  - file: 2_py_jupyter
-  # - deep learning (tf, etc.), nlp (spacy, etc.)
-- file: 3_r_
-  # sections:
-  # - file: 3_r_tidyverse
-- file: 4_d3_
-- file: 5_bash_
-# - file: 6_math_ (theory, explanations, etc.)
+root: welcome
+parts:
+  - caption: Overview
+    chapters:
+    - file: 0_overview/overview
+  
+  - caption: Python
+    chapters:
+    - file: 1_python/1_setup_
+      sections:
+      - file: 1_python/1_setup_jupyter
+
+  - caption: R
+    chapters:
+    - file: 2_r/2_setup_
+      # sections:
+      # - file: 2_r/2_setup_something
+
+  - caption: Frontend
+    chapters:
+    - file: 3_frontend/3_definition_
+    # - file: 3_frontend/
+    #   sections:
+    #   - file: 3_frontend/
+
+  - caption: Backend
+    chapters:
+    - file: 4_backend/4_definition_
+    - file: 4_backend/4_os_
+      sections:
+      - file: 4_backend/4_os_bash
+      # - file: 4_backend/4_os_...
+
+  - caption: Theory
+    chapters:
+    - file: 5_theory/5_definition_
+    # - file: 5_theory/
+    #   sections:
+    #   - file: 5_theory/
+  
+  
