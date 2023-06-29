@@ -4,6 +4,14 @@ Whereas Python tends to be the most useful framework for the typical data scienc
 
 To become familiar with R, it is **highly recommended** that you go through the first three [R Primers on Posit Cloud](https://posit.cloud/learn/primers) (**[The Basics](https://posit.cloud/learn/primers/1)**, **[Work with Data](https://posit.cloud/learn/primers/2)**, and **[Visualize Data](https://posit.cloud/learn/primers/3)**).
 
+## Initial Setup
+
+It is recommended that you use Git and Github for all project work, whether it is in R or Python.
+
+1. Sign up for a [GitHub](https://github.com/) account if you haven't already. Then, [download GitHub Desktop](https://desktop.github.com/) (in my humble opinion, this is the most efficient way to interface with GitHub for most data science work).
+    - [This is a great resource for Git](https://www.atlassian.com/git/tutorials/setting-up-a-repository).
+2. Create a "Projects" folder somewhere convenient on your computer. You can name the folder whatever you like; for example, I have a "GitStuff" folder in my home directory (i.e., on a Mac, this is a folder in the same directory as *Movies* and *Pictures*, etc.). Here is where you'll put all future data science project git repositories.
+
 ## R Setup
 
 > Note: It is highly recommended you use [R Markdown](https://rmarkdown.rstudio.com/lesson-1.html) for any work in R.

@@ -143,14 +143,8 @@ const thebe_selector_output = ".output, .cell_output"
   
   
   
-    
-    
-      
-    
-    
-    <img src="../_static/dsn.png" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="../_static/dsn.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
   
+    <p class="title logo__title">data science notes</p>
   
 </a></div>
         <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
@@ -380,7 +374,16 @@ document.write(`
 <p>Most of your work in data science will be done using Python, and we focus on that framework here. Before doing anything further, see below.</p>
 <section id="initial-setup">
 <h2>Initial Setup<a class="headerlink" href="#initial-setup" title="Permalink to this headline">#</a></h2>
-<p>Before working on your first python-based project, install <a class="reference external" href="https://docs.conda.io/en/latest/miniconda.html">Miniconda</a>. (The full Anaconda distribution is bloated and can get quite cumbersome.) Then, run <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">update</span> <span class="pre">--all</span></code> (you might consider running this twice — package resolutions are weird).</p>
+<ol class="arabic simple">
+<li><p>Before working on your first Python-based project, install <a class="reference external" href="https://docs.conda.io/en/latest/miniconda.html">Miniconda</a>. (The full Anaconda distribution is bloated and can get quite cumbersome.)</p></li>
+<li><p>Then, run <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">update</span> <span class="pre">--all</span></code> (you might consider running this twice — package resolutions are weird).</p></li>
+<li><p>Sign up for a <a class="reference external" href="https://github.com/">GitHub</a> account if you haven’t already. Then, <a class="reference external" href="https://desktop.github.com/">download GitHub Desktop</a> (in my humble opinion, this is the most efficient way to interface with GitHub for most data science work).</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.atlassian.com/git/tutorials/setting-up-a-repository">This is a great resource for Git</a>.</p></li>
+</ul>
+</li>
+<li><p>Create a “Projects” folder somewhere convenient on your computer. You can name the folder whatever you like; for example, I have a “GitStuff” folder in my home directory (i.e., on a Mac, this is a folder in the same directory as <em>Movies</em> and <em>Pictures</em>, etc.). Here is where you’ll put all future data science project git repositories.</p></li>
+</ol>
 </section>
 <section id="initiate-a-repository">
 <h2>Initiate a Repository<a class="headerlink" href="#initiate-a-repository" title="Permalink to this headline">#</a></h2>
@@ -420,7 +423,7 @@ document.write(`
 <li><p>To remove a kernel use <code class="docutils literal notranslate"><span class="pre">jupyter</span> <span class="pre">kernelspec</span> <span class="pre">remove</span> <span class="pre">&lt;myenv&gt;</span></code>.</p></li>
 </ul>
 </li>
-<li><p>Do your work … (see the <span class="xref myst">Installing Packages</span> section, below).</p></li>
+<li><p>Do your work … (see the Installing Packages section, below).</p></li>
 <li><p>Deactivate this environment with <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">deactivate</span></code>.</p></li>
 </ol>
 </section>
@@ -438,7 +441,7 @@ document.write(`
 <li><p>Open the yml file, update the <code class="docutils literal notranslate"><span class="pre">name</span></code> field, and add (or change) any packages you know you’ll need under <code class="docutils literal notranslate"><span class="pre">pip:</span></code> (and <strong>only</strong> under <code class="docutils literal notranslate"><span class="pre">pip:</span></code>).</p></li>
 <li><p>Run <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">env</span> <span class="pre">create</span> <span class="pre">-f</span> <span class="pre">environment.yml</span></code> to create your environment.</p></li>
 <li><p>Follow Step 2 and Step 3 in the previous section.</p></li>
-<li><p>Do your work … (see the <span class="xref myst">Installing Packages</span> section, below).</p></li>
+<li><p>Do your work … (see the Installing Packages section, below).</p></li>
 <li><p>Deactivate this environment with <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">deactivate</span></code>.</p></li>
 </ol>
 <blockquote>
@@ -458,7 +461,7 @@ document.write(`
 <li><p>Activate the environment with <code class="docutils literal notranslate"><span class="pre">source</span> <span class="pre">~/venvs/&lt;myenv&gt;/bin/activate</span></code>.</p></li>
 <li><p>Run <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">--upgrade</span> <span class="pre">pip</span></code>, then <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">ipykernel</span></code>.</p></li>
 <li><p>Follow Step 3 in the <strong>Conda Environment</strong> section.</p></li>
-<li><p>Do your work … (see the <span class="xref myst">Installing Packages</span> section, below).</p></li>
+<li><p>Do your work … (see the Installing Packages section, below).</p></li>
 <li><p>Deactivate this environment with <code class="docutils literal notranslate"><span class="pre">deactivate</span></code>.</p></li>
 </ol>
 <p><em>Note: To return back to Anaconda, you can just close and reopen a new terminal, or run <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">activate</span></code>.</em></p>

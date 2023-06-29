@@ -4,7 +4,11 @@ Most of your work in data science will be done using Python, and we focus on tha
 
 ## Initial Setup
 
-Before working on your first python-based project, install [Miniconda](https://docs.conda.io/en/latest/miniconda.html). (The full Anaconda distribution is bloated and can get quite cumbersome.) Then, run `conda update --all` (you might consider running this twice — package resolutions are weird).
+1. Before working on your first Python-based project, install [Miniconda](https://docs.conda.io/en/latest/miniconda.html). (The full Anaconda distribution is bloated and can get quite cumbersome.) 
+2. Then, run `conda update --all` (you might consider running this twice — package resolutions are weird).
+3. Sign up for a [GitHub](https://github.com/) account if you haven't already. Then, [download GitHub Desktop](https://desktop.github.com/) (in my humble opinion, this is the most efficient way to interface with GitHub for most data science work).
+    - [This is a great resource for Git](https://www.atlassian.com/git/tutorials/setting-up-a-repository).
+4. Create a "Projects" folder somewhere convenient on your computer. You can name the folder whatever you like; for example, I have a "GitStuff" folder in my home directory (i.e., on a Mac, this is a folder in the same directory as *Movies* and *Pictures*, etc.). Here is where you'll put all future data science project git repositories.
 
 ## Initiate a Repository
 
@@ -35,7 +39,7 @@ Ideally, every data science project should have its own [environment](https://do
    - See the [IPython Kernels Docs](https://ipython.readthedocs.io/en/stable/install/kernel_install.html) for more info.
    - To see all kernels, use `jupyter kernelspec list`.
    - To remove a kernel use `jupyter kernelspec remove <myenv>`.
-4. Do your work ... (see the [Installing Packages](#installing-packages) section, below).
+4. Do your work ... (see the Installing Packages section, below).
 5. Deactivate this environment with `conda deactivate`.
 
 ### Pip Environment
@@ -49,7 +53,7 @@ Ideally, every data science project should have its own [environment](https://do
 3. Open the yml file, update the `name` field, and add (or change) any packages you know you'll need under `pip:` (and **only** under `pip:`).
 4. Run `conda env create -f environment.yml` to create your environment.
 5. Follow Step 2 and Step 3 in the previous section.
-6. Do your work ... (see the [Installing Packages](#installing-packages) section, below).
+6. Do your work ... (see the Installing Packages section, below).
 7. Deactivate this environment with `conda deactivate`.
 
 > In general, using yml files is actually a good practice for both conda and pip environments!
@@ -64,7 +68,7 @@ Venv is another industry standard, lightweight Python environment framework. If 
 3. Activate the environment with `source ~/venvs/<myenv>/bin/activate`.
 4. Run `pip install --upgrade pip`, then `pip install ipykernel`.
 5. Follow Step 3 in the **Conda Environment** section.
-6. Do your work ... (see the [Installing Packages](#installing-packages) section, below).
+6. Do your work ... (see the Installing Packages section, below).
 7. Deactivate this environment with `deactivate`.
 
 *Note: To return back to Anaconda, you can just close and reopen a new terminal, or run `conda activate`.*
