@@ -4,11 +4,13 @@ Most of your work in data science will be done using Python, and we focus on tha
 
 ## Initial Setup
 
-1. Before working on your first Python-based project, install [Miniconda](https://docs.conda.io/en/latest/miniconda.html). (The full Anaconda distribution is bloated and can get quite cumbersome.) 
-2. Then, run `conda update --all` (you might consider running this twice — package resolutions are weird).
-3. Sign up for a [GitHub](https://github.com/) account if you haven't already. Then, [download GitHub Desktop](https://desktop.github.com/) (in my humble opinion, this is the most efficient way to interface with GitHub for most data science work).
+1. Before working on your first Python-based project, install [Miniconda](https://docs.conda.io/en/latest/miniconda.html). (The full Anaconda distribution is bloated and can get quite cumbersome.) This will create your "base" environment.
+2. [Install JupyterLab](https://jupyterlab.readthedocs.io/en/latest/getting_started/installation.html), and any [Jupyter extensions](./1_setup_jupyter.md) you think you might like to have. **You should get into the habit of calling `jupyter lab` from the base environment.** See below for more on environments.
+   - I also like to install pandas and seaborn in the base environment, for quick scratch work that exists outside of any project.
+3. Then, run `conda update --all` (you might consider running this twice — package resolutions are weird).
+4. Sign up for a [GitHub](https://github.com/) account if you haven't already. Then, [download GitHub Desktop](https://desktop.github.com/) (in my humble opinion, this is the most efficient way to interface with GitHub for most data science work).
     - [This is a great resource for Git](https://www.atlassian.com/git/tutorials/setting-up-a-repository).
-4. Create a "Projects" folder somewhere convenient on your computer. You can name the folder whatever you like; for example, I have a "GitStuff" folder in my home directory (i.e., on a Mac, this is a folder in the same directory as *Movies* and *Pictures*, etc.). Here is where you'll put all future data science project git repositories.
+5. Create a "Projects" folder somewhere convenient on your computer. You can name the folder whatever you like; for example, I have a "GitStuff" folder in my home directory (i.e., on a Mac, this is a folder in the same directory as *Movies* and *Pictures*, etc.). Here is where you'll put all future data science project git repositories.
 
 ## Initiate a Repository
 

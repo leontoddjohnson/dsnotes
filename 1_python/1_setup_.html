@@ -375,7 +375,12 @@ document.write(`
 <section id="initial-setup">
 <h2>Initial Setup<a class="headerlink" href="#initial-setup" title="Permalink to this headline">#</a></h2>
 <ol class="arabic simple">
-<li><p>Before working on your first Python-based project, install <a class="reference external" href="https://docs.conda.io/en/latest/miniconda.html">Miniconda</a>. (The full Anaconda distribution is bloated and can get quite cumbersome.)</p></li>
+<li><p>Before working on your first Python-based project, install <a class="reference external" href="https://docs.conda.io/en/latest/miniconda.html">Miniconda</a>. (The full Anaconda distribution is bloated and can get quite cumbersome.) This will create your “base” environment.</p></li>
+<li><p><a class="reference external" href="https://jupyterlab.readthedocs.io/en/latest/getting_started/installation.html">Install JupyterLab</a>, and any <a class="reference internal" href="1_setup_jupyter.html"><span class="doc std std-doc">Jupyter extensions</span></a> you think you might like to have. <strong>You should get into the habit of calling <code class="docutils literal notranslate"><span class="pre">jupyter</span> <span class="pre">lab</span></code> from the base environment.</strong> See below for more on environments.</p>
+<ul class="simple">
+<li><p>I also like to install pandas and seaborn in the base environment, for quick scratch work that exists outside of any project.</p></li>
+</ul>
+</li>
 <li><p>Then, run <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">update</span> <span class="pre">--all</span></code> (you might consider running this twice — package resolutions are weird).</p></li>
 <li><p>Sign up for a <a class="reference external" href="https://github.com/">GitHub</a> account if you haven’t already. Then, <a class="reference external" href="https://desktop.github.com/">download GitHub Desktop</a> (in my humble opinion, this is the most efficient way to interface with GitHub for most data science work).</p>
 <ul class="simple">
