@@ -471,7 +471,10 @@ document.write(`
 </section>
 <section id="installing-packages">
 <h3>Installing Packages<a class="headerlink" href="#installing-packages" title="Permalink to this headline">#</a></h3>
-<p>In conda environments, only use <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">install</span></code> (see <a class="reference external" href="https://www.anaconda.com/using-pip-in-a-conda-environment/">this</a>).</p>
+<p>In conda environments, only use <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">install</span></code> (see <a class="reference external" href="https://www.anaconda.com/using-pip-in-a-conda-environment/">this</a>). If you’re working in the base environment, and you <em>really</em> need a package that cannot be installed any other way, let <code class="docutils literal notranslate"><span class="pre">pip</span></code> be the absolute last resort:</p>
+<ul class="simple">
+<li><p>These pip packages will not necessarily stay up to date with the rest of the conda packages, so be aware that you might need to update them later if things get squirrely.</p></li>
+</ul>
 <p>In pip and venv environments, only use <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span></code>.</p>
 <p><strong>For each new package install, read the documentation <em>FIRST</em>.</strong> For example, notice how installing <a class="reference external" href="https://plot.ly/python/getting-started/#installation">Plotly</a> requires separate steps for <a class="reference external" href="https://plotly.com/python/getting-started/#jupyterlab-support">use in Jupyterlab</a>.</p>
 </section>
