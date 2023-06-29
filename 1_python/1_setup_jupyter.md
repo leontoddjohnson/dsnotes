@@ -2,6 +2,12 @@
 
 I recommend having a "scratch.ipynb" file for each project. Add this to your *.gitignore* file, of course.
 
+## JupyterLab Extensions
+
+Most JupyterLab Extensions can be installed using the [JupyterLab Extension Manager](https://jupyterlab.readthedocs.io/en/latest/user/extensions.html#managing-extensions-using-the-extension-manager), but some of them require a `conda` or `pip` installation. Also, many will require you to [install Node](https://nodejs.org/en/download), so I recommend doing that first.
+
+One particularly nice extension is the [Variable Inspector](https://github.com/lckr/jupyterlab-variableInspector). Though unfortunately, for this one, I've found that it only works when it is installed using pip: `pip install lckr-jupyterlab-variableinspector`.
+
 ## First Cell
 
 Example first cell for a Jupyter Notebook:
