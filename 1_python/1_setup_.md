@@ -79,7 +79,7 @@ Venv is another industry standard, lightweight Python environment framework. If 
 
 ### Installing Packages
 
-In conda environments, only use `conda install` (see [this](https://www.anaconda.com/using-pip-in-a-conda-environment/)). If you're working in the base environment, and you *really* need a package that cannot be installed any other way, let `pip` be the absolute last resort:
+In conda environments, only use `conda install` (see [this](https://www.anaconda.com/using-pip-in-a-conda-environment/)). If you're working in a conda environment, and you *really* need a package that cannot be installed any other way, let `pip` be the absolute last resort:
 - These pip packages will not necessarily stay up to date with the rest of the conda packages, so be aware that you might need to update them later if things get squirrely.
 
 In pip and venv environments, only use `pip install`.
